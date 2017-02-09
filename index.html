@@ -1,12 +1,159 @@
 <!DOCTYPE html>
-
 <html>
     <head>
-        <meta charset="UTF-8">
-        <title>Danny's Portfolio</title>
-        
+        <meta charset="utf-8">
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <title>Danny Aguinaldo | Web Developer</title>
+        <!-- css -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!-- Font -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:700|Shadows+Into+Light|Roboto:100,400" rel="stylesheet">
+        <!-- JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="js/script.js"></script>
     </head>
     <body>
-
+        <header>
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="container">
+                        <div class="navbar-header">
+                            <a class="burger navbar-right"><i class="fa fa-bars fa-2x"></i></a>
+                        </div>
+                        <ul class="nav navbar-nav navbar-right navigation">
+                            <li class="sliding-underline"><a href="#">Home</a></li>
+                            <li class="sliding-underline"><a href="#about">About</a></li>
+                            <li class="sliding-underline"><a href="#skills">Skills</a></li>
+                            <li class="sliding-underline"><a href="#projects">Projects</a></li>
+                            <li class="sliding-underline"><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="heading">
+                <div class='title'>
+                    Hello, my name is <u><span class='name'>Danny</span></u>
+                </div>
+                <div class="roles">
+                    Christ Follower | Web Developer | Youth Leader | Worship Leader
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="container-fluid about-container">
+                <div class="container">
+                    <section class="about" id="about">
+                        <div class="section-title">About Me <i class="fa fa-caret-down"></i></div>
+                        <hr>
+                        <div class="content">
+                            <img src="images/profile.jpg" class="profile-img" alt="Picture of Danny Aguinaldo" />
+                            <p class="description">
+                                Hello there! My name is <span class="name">Danny Aguinaldo</span> and I am a <span class="job-title">Web Developer</span> based in Houston, TX<br>
+                                Graduated from Lone Star College with an Associates Degree of Science in Computer Science<br>
+                                <br>
+                                Current Roles: <span class="job-title">Deacon</span>, <span class="job-title">Youth Leader</span>, and <span class="job-title">Worship Leader</span> at Philippine American Baptist Church<br> 
+                                <span class="job-title">Instructor</span> at Mathnasium<br>
+                                <br>
+                                Hobbies: Web Developing, Guitar/Piano/Singing, Reading, Video Games, Basketball, Weight Lifting 
+                            </p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="container-fluid skills-container">
+                <div class="container">
+                    <section class="skills" id="skills">
+                        <div class="section-title">Skills <i class="fa fa-caret-down"></i></div>
+                        <hr>
+                        <div class="content">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                    <img class="skill-logo" src="images/logos/html5.svg" height=10% width=10%/>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                    <img class="skill-logo" src="images/logos/css3.svg" height=10% width=10%/>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                    <img class="skill-logo" src="images/logos/javascript-seeklogo.svg" height=18% width=18%/>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                    <img class="skill-logo" src="images/logos/jQuery_logo.svg" height=25% width=25%/>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                    <img class="skill-logo" src="images/logos/bootstrap-seeklogo.com.svg" height=10% width=10%/>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                    <img class="skill-logo" src="images/logos/python-logo-generic.svg" height=30% width=30%/>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <div class="container projects-container">
+                    <section class="projects" id="projects">
+                        <div class="section-title">Projects <i class="fa fa-caret-down"></i></div>
+                        <hr>
+                        <div class="content">
+                            <img class="fcc" src="images/logos/freecodecamp.svg" width="50" height="50"/>
+                            <span class="project-title">Free Code Camp Projects</span>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://codepen.io/danaguinaldo/full/GjvddP/"><img class="project-images" src="images/projects/portfolioexample.PNG" alt="Portfolio"></a>
+                                    <h6> Example of Portfolio </h6>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://codepen.io/danaguinaldo/full/GjyBbq/"><img class="project-images" src="images/projects/quote.PNG" alt="Quote Machine"></a>
+                                    <h6> Quote Machine </h6>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://codepen.io/danaguinaldo/full/PGpdgG/"><img class="project-images" src="images/projects/tribute.PNG" alt="Tribute Page"></a>
+                                    <h6> Tribute Page </h6>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="http://codepen.io/danaguinaldo/full/GjwxYN/"><img class="project-images" src="images/projects/WeatherApp.PNG" alt="Weather App"></a>
+                                    <h6> Weather App </h6>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="http://codepen.io/danaguinaldo/full/LbpYxr/"><img class="project-images" src="images/projects/wikipedia.PNG" alt="Weather App"></a>
+                                    <h6> Wikipedia Viewer </h6>
+                                </div>
+                                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+                                    <a href="https://codepen.io/danaguinaldo/full/womqqY/"><img class="project-images" src="images/projects/twitch.PNG" alt="Twitch Viewer"></a>
+                                    <h6> Twitch Viewer </h6>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="container-fluid contact-container">
+                <div class="container">
+                    <section class="contact" id="contact">
+                        <div class="section-title">Contact Me <i class="fa fa-caret-down"></i></div>
+                        <hr>
+                        <div class="content">
+                            <p>
+                                I am open to any hiring offers or project offers:<br>
+                                <a class="email-link sliding-underline" href="mailto:dan.r.aguinaldo@gmail.com">dan.r.aguinaldo@gmail.com</a>
+                            </p>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div>Handcoded by Me &copy 2017</div>
+            <div class="social-media">
+                <a target="_blank" href="https://www.facebook.com/aguinaldo"><i class="fa fa-facebook-f"></i></a>
+                <a target="_blank" href="https://twitter.com/danaguinaldo"><i class="fa fa-twitter"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/danny-aguinaldo-b94996129"><i class="fa fa-linkedin"></i></a>
+            </div>
+        </footer>
     </body>
 </html>
